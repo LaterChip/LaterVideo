@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <RootNamespace>LaterVideo</RootNamespace>
+    <AssemblyName>LaterVideo</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x86;x64;ARM64</Platforms>
+    <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+    <UseWinUI>true</UseWinUI>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <!-- 免打包（unpackaged）运行：直接生成可双击运行的 exe，无需 MSIX 打包 -->
+    <WindowsPackageType>None</WindowsPackageType>
+    <!-- 把 Windows App SDK 运行时一起输出，避免目标机器缺少运行时导致启动失败 -->
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+
+    <ApplicationTitle>LaterVideo</ApplicationTitle>
+    <Product>LaterVideo</Product>
+    <AssemblyTitle>LaterVideo</AssemblyTitle>
+    <Company>LaterVideo</Company>
+    <Version>1.0.0</Version>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
+
+    <!-- 应用图标：写入 exe 资源，同时供窗口 / 任务栏 / 打包使用 -->
+    <ApplicationIcon>Assets\LaterVideo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260921001" />
+  </ItemGroup>
+
+  <!-- 图标资源随生成输出，运行时用于窗口与任务栏图标 -->
+  <ItemGroup>
+    <Content Include="Assets\LaterVideo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
