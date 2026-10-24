@@ -15,7 +15,7 @@
 [![WinUI 3](https://img.shields.io/badge/WinUI%203-Windows%20App%20SDK-6750A4?style=for-the-badge&labelColor=6A5B9F&logo=microsoft)](https://github.com/LaterChip/LaterVideo)
 [![Windows](https://img.shields.io/badge/Windows%2010%201809%2B-Supported-6750A4?style=for-the-badge)](https://github.com/LaterChip/LaterVideo)
 
-[![Trendshift](https://trendshift.io/api/badge/repositories/318114)](https://trendshift.io/repositories/318114)
+[![Trendshift](https://img.shields.io/badge/Trendshift-GitHub%20Trending-6750A4?style=for-the-badge&logo=github)](https://trendshift.io/repositories/318114)
 [![Bilibili 动态](https://img.shields.io/badge/Bilibili%20UID-3546952564214479-FF6699?logo=bilibili&logoColor=white&style=for-the-badge)](https://space.bilibili.com/3546952564214479)
 
 </div>
