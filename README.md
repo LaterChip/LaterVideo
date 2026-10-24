@@ -3,6 +3,23 @@
 基于 **WinUI 3 (Windows App SDK) + C#** 的桌面「多媒体文件暂存与预览」工具。
 把散落在各处的图片、音乐、音频、视频、文本、配置文件、文档拖进来集中管理，随手预览、随手打开。
 
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/LaterChip/LaterVideo?style=for-the-badge&label=Stars&color=6750A4)](https://github.com/LaterChip/LaterVideo/stargazers)
+[![Release](https://img.shields.io/github/v/release/LaterChip/LaterVideo?style=for-the-badge&label=Release&color=6750A4)](https://github.com/LaterChip/LaterVideo/releases)
+[![Issues](https://img.shields.io/github/issues/LaterChip/LaterVideo?style=for-the-badge&label=Issues&color=6750A4)](https://github.com/LaterChip/LaterVideo/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/LaterChip/LaterVideo?style=for-the-badge&label=Pull%20Requests&color=6750A4)](https://github.com/LaterChip/LaterVideo/pulls)
+
+[![Downloads](https://img.shields.io/github/downloads/LaterChip/LaterVideo/total?style=for-the-badge&label=Downloads&color=6750A4)](https://github.com/LaterChip/LaterVideo/releases)
+[![C#](https://img.shields.io/github/languages/top/LaterChip/LaterVideo?style=for-the-badge&label=C%23&color=6750A4)](https://github.com/LaterChip/LaterVideo)
+[![WinUI 3](https://img.shields.io/badge/WinUI%203-Windows%20App%20SDK-6750A4?style=for-the-badge&labelColor=6A5B9F&logo=microsoft)](https://github.com/LaterChip/LaterVideo)
+[![Windows](https://img.shields.io/badge/Windows%2010%201809%2B-Supported-6750A4?style=for-the-badge)](https://github.com/LaterChip/LaterVideo)
+
+[![Trendshift](https://trendshift.io/api/badge/repositories/318114)](https://trendshift.io/repositories/318114)
+[![Bilibili 动态](https://img.shields.io/badge/Bilibili%20UID-3546952564214479-FF6699?logo=bilibili&logoColor=white&style=for-the-badge)](https://space.bilibili.com/3546952564214479)
+
+</div>
+
 ---
 
 ## 一、功能一览
